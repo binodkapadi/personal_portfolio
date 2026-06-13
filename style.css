@@ -250,6 +250,7 @@ section .title::after {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 40px rgba(0, 210, 255, 0.2), inset 0 0 20px rgba(255, 255, 255, 0.05);
     display: flex;
@@ -266,6 +267,7 @@ section .title::after {
     background: linear-gradient(135deg, #00d2ff, transparent, #00d2ff);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0.5;
 }
@@ -500,6 +502,7 @@ body.loaded .home-content.new-layout .img-box {
     background: linear-gradient(135deg, crimson, transparent, crimson);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0.6;
 }
