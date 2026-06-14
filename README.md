@@ -16,7 +16,7 @@ It reflects my work in building intelligent, scalable, and data-driven solutions
 
 You can directly visit my portfolio by clicking the link below:
 
-**Link →** [Your Portfolio Link Here]
+**Link →** https://binodkapadi.com.np
 
 ## 🛠️ Tech Stack
 
