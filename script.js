@@ -144,4 +144,7 @@ $(document).ready(function () {
         goTo(0);
     });
 
+    // Update the footer copyright year dynamically
+    $('#current-year').text(new Date().getFullYear());
+
 });
