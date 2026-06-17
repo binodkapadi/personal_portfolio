@@ -54,12 +54,7 @@ $(document).ready(function () {
         loop: true
     });
 
-    var typed = new Typed(".typing-2", {
-        strings: ["AI/ML Engineer", "Developer", "Data Scientist", "Freelancer", "Data Analyst", "Google Cloud Learner", "MLOps Engineer", "NLP Engineer", "Computer Vison Engineer"],
-        typeSpeed: 100,
-        backSpeed: 50,
-        loop: true
-    });
+
 
     // Contact form submit (sends to Formspree – replace URL with your own form endpoint)
     const contactForm = document.getElementById('contact-form');
