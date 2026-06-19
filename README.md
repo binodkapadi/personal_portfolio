@@ -39,5 +39,6 @@ Feel free to connect with me via:
 * GitHub
 * LinkedIn
 * Email
+* Instagram
 
 ⭐ If you like this project, don’t forget to star the repository!
