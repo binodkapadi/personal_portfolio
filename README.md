@@ -18,6 +18,10 @@ You can directly visit my portfolio by clicking the link below:
 
 **Link →** https://binodkapadi.com.np
 
+## 📺 YouTube Video 
+
+**Link ->** https://youtu.be/1-nScQgRUK4 
+
 ## 🛠️ Tech Stack
 
 * HTML5, CSS3, JavaScript
