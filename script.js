@@ -38,17 +38,20 @@ $(document).ready(function () {
     $('.navbar .menu li a').click(function () {
         // applying again smooth scroll on menu items click
         $('html').css("scrollBehavior", "smooth");
+        // close mobile menu when a section link is clicked
+        $('.navbar .menu').removeClass("active");
+        $('.menu-btn i').removeClass("active");
     });
 
     // toggle menu/navbar script
-    $('.menu-btn').click(function () {
+    $('.navbar .menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["AI/ML Engineer", "Developer", "Data Scientist", "Freelancer", "Data Analyst", "Google Cloud Learner", "MLOps Engineer", "NLP Engineer", "Computer Vison Engineer"],
+        strings: ["AI/ML Engineer", "Developer", "Data Scientist", "Data Analyst", "Google Cloud Learner", "NLP Engineer", "MLOps Engineer", "Freelancer"],
         typeSpeed: 100,
         backSpeed: 50,
         loop: true
@@ -99,8 +102,8 @@ $(document).ready(function () {
         });
     }
 
-    // Project image sliders (Quizify, Notes_summarizer, Codeexplainer, TripAdvisor etc.)
-    $('.quizify-slider, .notes-summarizer-slider, .codeexplainer-slider, .tripadvisor-slider').each(function () {
+    // Project image sliders (QuizGenerator, Notes_summarizer, Codeexplainer, TripNova etc.)
+    $('.quizgenerator-slider, .notes-summarizer-slider, .codeexplainer-slider, .tripnova-slider').each(function () {
         var $slider = $(this);
         var $track = $slider.find('.slider-track');
         var $slides = $track.find('img');

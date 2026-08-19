@@ -40,9 +40,10 @@ You can directly visit my portfolio by clicking the link below:
 
 Feel free to connect with me via:
 
-* GitHub
-* LinkedIn
-* Email
-* Instagram
+* GitHub : https://github.com/binodkapadi
+* LinkedIn : https://www.linkedin.com/in/binodkapadi/
+* Email : binoddattkapadi@gmail.com
+* Instagram : https://www.instagram.com/binodbhatt9865
+* Youtube : https://www.youtube.com/@errevolution1
 
 ⭐ If you like this project, don’t forget to star the repository!
